@@ -1,8 +1,1 @@
-# XYFShareTool
-简单易用基于官方SDK的分享封装，基于微信开放平台的微信分享，QQ互联平台的QQ分享，将相应的分享步骤代码封装到了XYFShareTool工具类里头了，可以直接拖到你的项目中，pod进相应的一些库，照着QQ互联开发文档拖进TencentOpenAPI.framework并做相关配置，照着AppDelegate.m文件添加相应代码，即可实现分享功能了。
-想要运行此Demo测试分享功能，你只需要：
-1.把此Demo的bundleId换成你的项目的BundleId（需要你的项目在相应公共平台上注册App）
-2.在AppDelegate.m文件中的didFinishLaunchingWithOptions方法中替换你在微信开放平台注册的AppID
-3.在ShareTool.m文件中的init方法中替换你在QQ互联平台注册的AppID
 
-OK，可以运行Demo并分享了，分享内容在AppDelegate.m文件中的clickShare方法里设置
