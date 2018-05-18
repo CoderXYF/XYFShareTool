@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044744DE20A92E96005F8B64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044744DD20A92E96005F8B64 /* AppDelegate.m */; };
+		044744E120A92E96005F8B64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044744E020A92E96005F8B64 /* ViewController.m */; };
+		044744E420A92E96005F8B64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044744E220A92E96005F8B64 /* Main.storyboard */; };
+		044744E620A92E9C005F8B64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044744E520A92E9C005F8B64 /* Assets.xcassets */; };
+		044744E920A92E9C005F8B64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044744E720A92E9C005F8B64 /* LaunchScreen.storyboard */; };
+		044744EC20A92E9C005F8B64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044744EB20A92E9C005F8B64 /* main.m */; };
+		04A6167820AEB184009744E0 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04A6167720AEB184009744E0 /* ReadMe.txt */; };
+		04F48AF520AAD88E0062A5D7 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F48AF420AAD88E0062A5D7 /* TencentOpenAPI.framework */; };
+		04F48AF720AAD9010062A5D7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F48AF620AAD9010062A5D7 /* Security.framework */; };
+		04F48AF920AAD91B0062A5D7 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F48AF820AAD91B0062A5D7 /* libiconv.2.4.0.tbd */; };
+		04F48AFB20AAD9250062A5D7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F48AFA20AAD9250062A5D7 /* SystemConfiguration.framework */; };
+		04F48AFD20AAD92F0062A5D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F48AFC20AAD92F0062A5D7 /* CoreGraphics.framework */; };
+		04F48AFF20AAD93B0062A5D7 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F48AFE20AAD93B0062A5D7 /* libsqlite3.0.tbd */; };
+		04F48B0120AAD9430062A5D7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F48B0020AAD9430062A5D7 /* CoreTelephony.framework */; };
+		04F48B0320AAD95C0062A5D7 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F48B0220AAD95C0062A5D7 /* libstdc++.6.0.9.tbd */; };
+		04F48B0520AAD9650062A5D7 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F48B0420AAD9650062A5D7 /* libz.1.1.3.tbd */; };
+		04F48B0E20AADC530062A5D7 /* ShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F48B0D20AADC530062A5D7 /* ShareTool.m */; };
+		7407867DCF973E557BB7328A /* libPods-XYFShareTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C71065021718621421781B79 /* libPods-XYFShareTool.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		044744D920A92E96005F8B64 /* XYFShareTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYFShareTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044744DC20A92E96005F8B64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		044744DD20A92E96005F8B64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		044744DF20A92E96005F8B64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044744E020A92E96005F8B64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044744E320A92E96005F8B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044744E520A92E9C005F8B64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044744E820A92E9C005F8B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044744EA20A92E9C005F8B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044744EB20A92E9C005F8B64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A6167720AEB184009744E0 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		04F48AF420AAD88E0062A5D7 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		04F48AF620AAD9010062A5D7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		04F48AF820AAD91B0062A5D7 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		04F48AFA20AAD9250062A5D7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		04F48AFC20AAD92F0062A5D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04F48AFE20AAD93B0062A5D7 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		04F48B0020AAD9430062A5D7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		04F48B0220AAD95C0062A5D7 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		04F48B0420AAD9650062A5D7 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		04F48B0C20AADC530062A5D7 /* ShareTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareTool.h; sourceTree = "<group>"; };
+		04F48B0D20AADC530062A5D7 /* ShareTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareTool.m; sourceTree = "<group>"; };
+		23505EB386CCC8817AAA1AE2 /* Pods-XYFShareTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYFShareTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYFShareTool/Pods-XYFShareTool.release.xcconfig"; sourceTree = "<group>"; };
+		AE9282A507D0415249800E4D /* Pods-XYFShareTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYFShareTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYFShareTool/Pods-XYFShareTool.debug.xcconfig"; sourceTree = "<group>"; };
+		C71065021718621421781B79 /* libPods-XYFShareTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYFShareTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044744D620A92E96005F8B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F48B0520AAD9650062A5D7 /* libz.1.1.3.tbd in Frameworks */,
+				04F48B0320AAD95C0062A5D7 /* libstdc++.6.0.9.tbd in Frameworks */,
+				04F48B0120AAD9430062A5D7 /* CoreTelephony.framework in Frameworks */,
+				04F48AFF20AAD93B0062A5D7 /* libsqlite3.0.tbd in Frameworks */,
+				04F48AFD20AAD92F0062A5D7 /* CoreGraphics.framework in Frameworks */,
+				04F48AFB20AAD9250062A5D7 /* SystemConfiguration.framework in Frameworks */,
+				04F48AF920AAD91B0062A5D7 /* libiconv.2.4.0.tbd in Frameworks */,
+				04F48AF720AAD9010062A5D7 /* Security.framework in Frameworks */,
+				7407867DCF973E557BB7328A /* libPods-XYFShareTool.a in Frameworks */,
+				04F48AF520AAD88E0062A5D7 /* TencentOpenAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044744D020A92E96005F8B64 = {
+			isa = PBXGroup;
+			children = (
+				04F48AF420AAD88E0062A5D7 /* TencentOpenAPI.framework */,
+				044744DB20A92E96005F8B64 /* XYFShareTool */,
+				044744DA20A92E96005F8B64 /* Products */,
+				AA8FC00B260BE312DE2BD0B4 /* Pods */,
+				866B0DA72BE94245C1836100 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		044744DA20A92E96005F8B64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044744D920A92E96005F8B64 /* XYFShareTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044744DB20A92E96005F8B64 /* XYFShareTool */ = {
+			isa = PBXGroup;
+			children = (
+				04A6167720AEB184009744E0 /* ReadMe.txt */,
+				04F48B0B20AADC530062A5D7 /* XYFShareTool */,
+				044744DC20A92E96005F8B64 /* AppDelegate.h */,
+				044744DD20A92E96005F8B64 /* AppDelegate.m */,
+				044744DF20A92E96005F8B64 /* ViewController.h */,
+				044744E020A92E96005F8B64 /* ViewController.m */,
+				044744E220A92E96005F8B64 /* Main.storyboard */,
+				044744E520A92E9C005F8B64 /* Assets.xcassets */,
+				044744E720A92E9C005F8B64 /* LaunchScreen.storyboard */,
+				044744EA20A92E9C005F8B64 /* Info.plist */,
+				044744EB20A92E9C005F8B64 /* main.m */,
+			);
+			path = XYFShareTool;
+			sourceTree = "<group>";
+		};
+		04F48B0B20AADC530062A5D7 /* XYFShareTool */ = {
+			isa = PBXGroup;
+			children = (
+				04F48B0C20AADC530062A5D7 /* ShareTool.h */,
+				04F48B0D20AADC530062A5D7 /* ShareTool.m */,
+			);
+			path = XYFShareTool;
+			sourceTree = "<group>";
+		};
+		866B0DA72BE94245C1836100 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F48B0420AAD9650062A5D7 /* libz.1.1.3.tbd */,
+				04F48B0220AAD95C0062A5D7 /* libstdc++.6.0.9.tbd */,
+				04F48B0020AAD9430062A5D7 /* CoreTelephony.framework */,
+				04F48AFE20AAD93B0062A5D7 /* libsqlite3.0.tbd */,
+				04F48AFC20AAD92F0062A5D7 /* CoreGraphics.framework */,
+				04F48AFA20AAD9250062A5D7 /* SystemConfiguration.framework */,
+				04F48AF820AAD91B0062A5D7 /* libiconv.2.4.0.tbd */,
+				04F48AF620AAD9010062A5D7 /* Security.framework */,
+				C71065021718621421781B79 /* libPods-XYFShareTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA8FC00B260BE312DE2BD0B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE9282A507D0415249800E4D /* Pods-XYFShareTool.debug.xcconfig */,
+				23505EB386CCC8817AAA1AE2 /* Pods-XYFShareTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044744D820A92E96005F8B64 /* XYFShareTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044744EF20A92E9C005F8B64 /* Build configuration list for PBXNativeTarget "XYFShareTool" */;
+			buildPhases = (
+				9EB2D3C9F575C101F041E850 /* [CP] Check Pods Manifest.lock */,
+				044744D520A92E96005F8B64 /* Sources */,
+				044744D620A92E96005F8B64 /* Frameworks */,
+				044744D720A92E96005F8B64 /* Resources */,
+				AC88DD7963EFDF9F2FC5CE91 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYFShareTool;
+			productName = XYFShareTool;
+			productReference = 044744D920A92E96005F8B64 /* XYFShareTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044744D120A92E96005F8B64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					044744D820A92E96005F8B64 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 044744D420A92E96005F8B64 /* Build configuration list for PBXProject "XYFShareTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044744D020A92E96005F8B64;
+			productRefGroup = 044744DA20A92E96005F8B64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044744D820A92E96005F8B64 /* XYFShareTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044744D720A92E96005F8B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044744E920A92E9C005F8B64 /* LaunchScreen.storyboard in Resources */,
+				044744E620A92E9C005F8B64 /* Assets.xcassets in Resources */,
+				04A6167820AEB184009744E0 /* ReadMe.txt in Resources */,
+				044744E420A92E96005F8B64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EB2D3C9F575C101F041E850 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYFShareTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC88DD7963EFDF9F2FC5CE91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XYFShareTool/Pods-XYFShareTool-resources.sh",
+				"${PODS_ROOT}/LCProgressHUD/LCProgressHUD/LCProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LCProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYFShareTool/Pods-XYFShareTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044744D520A92E96005F8B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F48B0E20AADC530062A5D7 /* ShareTool.m in Sources */,
+				044744E120A92E96005F8B64 /* ViewController.m in Sources */,
+				044744EC20A92E9C005F8B64 /* main.m in Sources */,
+				044744DE20A92E96005F8B64 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		044744E220A92E96005F8B64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044744E320A92E96005F8B64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044744E720A92E9C005F8B64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044744E820A92E9C005F8B64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044744ED20A92E9C005F8B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		044744EE20A92E9C005F8B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044744F020A92E9C005F8B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9282A507D0415249800E4D /* Pods-XYFShareTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BRGV5Q76U9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = XYFShareTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-fobjc-arc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YourProject.BundleId;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044744F120A92E9C005F8B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23505EB386CCC8817AAA1AE2 /* Pods-XYFShareTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BRGV5Q76U9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = XYFShareTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-fobjc-arc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YourProject.BundleId;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044744D420A92E96005F8B64 /* Build configuration list for PBXProject "XYFShareTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044744ED20A92E9C005F8B64 /* Debug */,
+				044744EE20A92E9C005F8B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044744EF20A92E9C005F8B64 /* Build configuration list for PBXNativeTarget "XYFShareTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044744F020A92E9C005F8B64 /* Debug */,
+				044744F120A92E9C005F8B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044744D120A92E96005F8B64 /* Project object */;
+}
