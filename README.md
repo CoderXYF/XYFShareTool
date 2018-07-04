@@ -7,7 +7,7 @@
 * 在AppDelegate.m文件中的didFinishLaunchingWithOptions方法中替换你在微信开放平台注册的AppID   
 * 在ShareTool.m文件中的init方法中替换你在QQ互联平台注册的AppID  
 
-OK，可以运行Demo并分享了，分享内容在AppDelegate.m文件中的clickShare方法里设置  
+OK，可以运行Demo并分享了，分享内容在ViewController.m文件中的clickShare方法里设置  
 
 ## 小提示  
 shareTool类依赖了许多库,直接下载zib工程查看并使用就可以了
