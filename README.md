@@ -10,4 +10,4 @@
 OK，可以运行Demo并分享了，分享内容在AppDelegate.m文件中的clickShare方法里设置  
 
 ## 小提示  
-shareTool类依赖了许多库单独编译不通过上传不了pod，直接下载zib工程使用就可以了
+shareTool类依赖了许多库,直接下载zib工程查看并使用就可以了
